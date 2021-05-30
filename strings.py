@@ -1,5 +1,5 @@
 #cancatenation
-'''Name="saksham"
+Name="saksham"
 surname="Mudgal"
 print(Name + surname)
 
@@ -10,7 +10,7 @@ print(name[3])
 #slicing
 name="Saksham"
 print(name[1:4])
-'''
+
 #accessing using index sets
 var="Communication"
 print(var[0:4])
@@ -24,6 +24,6 @@ var1="Authentication"
 print(var1[-6:-1])
 
 #slicing with skip value
-name="sakshammudgal"
-print(name[0::2])
+name="LoyaltyIsRare"
+print(name[0::2])           #third argument is number of characters skipped, first is initial index, second is ending index
 print(name[::3])
