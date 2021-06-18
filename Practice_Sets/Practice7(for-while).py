@@ -66,3 +66,25 @@ print("The factorial of number is: ", fact)
 #using factorial function
 num=int(input("Enter any number ->"))
 print("Factorial of ", num ,"is ->", math.factorial(num))
+
+#printing pattern
+n=int(input("Enter the number of lines"))
+for i in range(n+1):
+    print("*" *i)
+
+
+#printing a pattern
+n=int(input("enter the no. of rows: "))
+for i in range(n):
+    print(" " *(n-i-1), end=" ")
+    print("*"*(2*i+1),end=" ")
+    print(" " * (n-i-1))
+
+
+#printing a table in reverse order
+num=int(input("enter any number: "))
+
+for i in range(10,0,-1):
+    print(num," * ",i," = ",i*num)
+    
+
