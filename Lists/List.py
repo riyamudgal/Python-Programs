@@ -13,7 +13,7 @@ print(name1)
 
 #list slicing
 print(name1[:3])
-print(name1[-4:])
+print(name1[-4:])                 #negative indexing is done from end, starting from 0 but we begin with -1 and end to -n
 
 #to calculate length
 print(len(name1))
