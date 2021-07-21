@@ -35,3 +35,8 @@ for i in range(n):
     element=int(input())
     list1.append(element)
 print("largest element is ", max(list1))
+
+#second largest element
+list1 = [89,23,56,12,75,34,18,70]
+list1.sort()
+print("Second largest element is ", list1[-2])
